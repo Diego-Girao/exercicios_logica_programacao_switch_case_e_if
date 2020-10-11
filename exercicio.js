@@ -11,7 +11,9 @@ function getSumEvenNumbers (value){
    }
     return sum;
 }
-    console.log(getSumEvenNumbers());
+    console.log(getSumEvenNumbers()); /* Verificando se a função está funcionando corretamente. */
+
+
 
 /* Função que retorna o resultado da soma de todos os números impares entre 101 e 200 */
 
@@ -26,7 +28,9 @@ function getSumOddNumbers (value){
    }
     return sum;
 }
-    console.log(getSumOddNumbers());
+    console.log(getSumOddNumbers()); /* Verificando se a função está funcionando corretamente. */
+
+    
 
 
 /* Escreva uma função que receba como parâmetros dois números distintos, a função deve validar que o primeiro número é menor que o segundo número  e que os números estão 
@@ -50,7 +54,7 @@ entre o valor 1 e o valor 30, caso verdadeiro a função deve retornar a soma de
         }
         return sum; 
     }
-    console.log(verifySmallerNumber(7,25));
+    console.log(verifySmallerNumber(7,25)); /* Verificando se a função está funcionando corretamente atribuindo valores. */
 
 
 
@@ -72,11 +76,12 @@ entre o valor 1 e o valor 30, caso verdadeiro a função deve retornar a soma de
         }
         return factor;   
     }
-        console.log(getFactor(6));
+        console.log(getFactor(6)); /* Verificando se a função está funcionando corretamente atribuindo valores. */
 
 
 /* Escreva uma função que receba como parâmetro um número entre 1 e 12 e em seguira retorne o nome do mês correspondente ao número informado. Caso o número informado esteja
 fora do range(1-12) a função deve retornar uma mensagem indicado que o número informado é inválido Ex: número informado: 3, retorno da função: "Março". */
+
 
 function getMonth (value){
     let month = "";
@@ -136,17 +141,19 @@ function getMonth (value){
     }
         return month;
 }
-    console.log(getMonth(7));
+    console.log(getMonth(7)); /* Verificando se a função está funcionando corretamente atribuindo valores. */
+
+
 
    /* Escreva uma função que receba como parâmetro o código de acesso e retorne uma mensagem de acordo com a tabela abaixo:
     
-código      mensagem
+    código      mensagem
     xpto        "Bem vindo convidado"
     alfa15      "preparando lançamento"
     tango       "foguete lançado"
    Caso o código informado seja um valor diverente do definido da 
-tabela, a função deve retornar uma mensaagem indicando código inválido.  (Utilize o switch/case )
- */
+tabela, a função deve retornar uma mensaagem indicando código inválido.  (Utilize o switch/case ) */
+
 
  function getAccessCode(code){
     let warning = "Código inválido";
@@ -170,7 +177,9 @@ tabela, a função deve retornar uma mensaagem indicando código inválido.  (Ut
  }
     return warning;
 }
-console.log(getAccessCode("alfa15"));
+console.log(getAccessCode("alfa15")); /* Verificando se a função está funcionando corretamente atribuindo valores. */
+
+
 
 /* Escreva uma função que receba como parâmetro um número entre 1 e 4 e retorne uma mensagem de acordo com a tabela abaixo
     
@@ -181,8 +190,8 @@ número    mensagem
 4       "Saír"
 
     Caso o código informado seja um valor diverente do definido da tabela, a função deve retornar uma mensaagem 
-indicando código inválido.  (Utilize o switch/case )
- */
+indicando código inválido.  (Utilize o switch/case ) */
+
 
 function getOption(value){
     let message = "Código inválido";
@@ -209,7 +218,7 @@ function getOption(value){
     }
     return  message;
 }
-console.log(getOption(2));
+console.log(getOption(2)); /* Verificando se a função está funcionando corretamente atribuindo valores. */
 
 
 
